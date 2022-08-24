@@ -1,0 +1,50 @@
+select, input {
+	width: 16em;
+}
+button {
+	padding: 0.5em;
+}
+.list_item {
+	float: left;
+	margin: 0.5em;
+	position: static;
+	border: 0.15em inset Grey;
+	border-radius: 1.2em;
+	text-align: center;
+	padding: 0.6em;
+	color: Black;
+	width: 16%;
+	min-width: 12em;
+	max-width: 20em;
+}
+.list_item img {
+	width: 6em;
+	display: inline-block;
+	vertical-align: middle;
+}
+.list_item p {
+	float: left;
+	width: 100%;
+	margin-top: 0.2em;
+	height: 2em;
+	font-weight: bold;
+}
+.list_item table {
+	display: inline-block;
+	vertical-align: middle;
+}
+.list_item tr td img{
+	width: 100%;
+	position: static;
+}
+.list_item tr:first-child td img {
+	border: 0.05em solid grey;
+	border-radius: 0.2em;
+}
+.list_item tr td:first-child {
+	width: 3em;
+}
+.list_item tr td:nth-child(2),
+.list_item tr td:nth-child(3) {
+	width: 1em;
+}

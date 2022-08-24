@@ -1,0 +1,64 @@
+﻿#detail_tvlogo {
+	max-width: 20em;
+	max-height: 10em;
+	margin-bottom: 0.5em;
+}
+#detail_paramtab {
+	margin: 0.5em 0;
+}
+#detail_paramtab td,
+#detail_paramtab th {
+	padding: 0.4em 0.7em;
+	text-align: center;
+}
+hr {
+	border:none;
+	border-top:2px dashed black;
+	background-color:transparent;
+	height:1px;
+}
+#detail_paramtab tr td img {
+	height: 2em;
+}
+#detail_paramtab tr th {
+	vertical-align: bottom;
+}
+#detail_paramtab td:not(:last-child) {
+	text-align: center;
+}
+#detail_paramtab td:last-child {
+	text-align: left;
+}
+.detail_flag {
+	max-height: 1em;
+	height: 1em;
+	position: relative;
+	top: 0.2em;
+	border: 0.05em solid grey;
+	border-radius: 0.2em;
+}
+@media (max-width: 30em) {
+	#detail_paramtab td {
+		padding: 0.4em;
+	}
+}
+#detail_paramtab td img {
+	width: 100%;
+}
+#detail_paramtab td:first-child {
+	min-width: 2.3em;
+}
+#detail_paramtab td:nth-child(2),
+#detail_paramtab td:nth-child(3) {
+	min-width: 3.2em;
+}
+#detail_paramtab tr:nth-child(odd) {
+	background: White;
+}
+#detail_paramtab tr:nth-child(even) {
+	background: #dcdcdc;
+}
+#detail_package_list li {
+	margin-left: 2em;
+	list-style-image: none;
+}

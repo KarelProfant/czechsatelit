@@ -1,0 +1,28 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 872.5 463.85">
+<g>
+  <path opacity="1" fill="#016228" fill-opacity="1"
+    d="M150.21 0L255.21 0L255.21 105L150.21 105L150.21 0Z"/>
+  <path opacity="1" fill="#85bb32" fill-opacity="1"
+    d="M255.21 0L360.21 0L360.21 105L255.21 105L255.21 0Z"/>
+  <path opacity="1" fill="#f4aa2a" fill-opacity="1"
+    d="M150.21 105L255.21 105L255.21 210L150.21 210L150.21 105Z"/>
+  <path opacity="1" fill="#f5e60e" fill-opacity="1"
+    d="M150.21 210L255.21 210L255.21 315L150.21 315L150.21 210Z"/>
+  <path opacity="1" fill="#e00712" fill-opacity="1"
+    d="M426.21 0L531.21 0L531.21 105L426.21 105L426.21 0Z"/>
+  <path opacity="1" fill="#bc0b1b" fill-opacity="1"
+    d="M531.21 0L636.21 0L636.21 105L531.21 105L531.21 0Z"/>
+  <path opacity="1" fill="#891c81" fill-opacity="1"
+    d="M636.21 0L741.21 0L741.21 105L636.21 105L636.21 0Z"/>
+  <path opacity="1" fill="#12a5df" fill-opacity="1"
+    d="M531.21 105L636.21 105L636.21 210L531.21 210L531.21 105Z"/>
+  <path opacity="1" fill="#2d2985" fill-opacity="1"
+    d="M531.21 210L636.21 210L636.21 315L531.21 315L531.21 210Z"/>
+  <text x="-4.2304688" y="444.46802"
+    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:89px;font-family:'Century Gothic'">
+    <tspan>regionalni<tspan style="font-weight:bold">televize</tspan>.cz</tspan>
+  </text>
+</g>
+</svg>

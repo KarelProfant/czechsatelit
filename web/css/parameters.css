@@ -1,0 +1,27 @@
+#parameters_select
+{
+	max-width: 100%;
+	width: 20em;
+}
+#parameters_tab td, #parameters_tab th
+{
+	padding: 1em;
+	background-color:LightGray;
+}
+#parameters_tab th:nth-child(2)
+{
+	width: 100%;
+}
+@media (min-width: 48em)
+{
+	#parameters_tab tr td:nth-child(1)
+	{
+		white-space: nowrap;
+	}
+}
+@media (max-width: 48em) {
+	table#parameters_tab td, table#parameters_tab th
+	{
+		padding: 0.5em;
+	}
+}

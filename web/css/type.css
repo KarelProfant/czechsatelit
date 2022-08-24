@@ -1,0 +1,110 @@
+* {
+	font-family: MS Sans Serif, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+	--minFontSize: 16px;
+	--maxFontSize: 30px;
+	--scaler: 1vw;
+	font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+}
+html {
+	background: Silver;
+}
+div {
+	display: none;
+}
+div#layout, #pricelist_packagelist,#pay, #alert, .category, .logo_list, .logo_list_pic, .list_item, .hppicslo {
+	display: block;
+}
+div#alert {
+	height: 100vh;
+}
+section {
+	padding: 2em;
+	background: White;
+	overflow: auto;
+	min-height: 70%;
+}
+h1 {
+	font-size: 1.8em;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+header {
+	background-color: Paleturquoise;
+	padding: 1%;
+	text-align: center;
+	display: block;
+}
+header img {
+	max-width: 100%;
+}
+article ul.list {
+	margin-left: 2.7em;
+}
+@media (max-width: 48em) {
+	header img {
+		margin-left: 3em;
+		width: calc(100% - 3em);
+	}
+	section {
+		padding: 1em;
+	}
+}
+footer {
+	padding: 1.3em 0;
+	background: Silver;
+	text-align: center;
+	clear: both;
+	display:block;
+}
+.ref {
+  position: relative;
+}
+.ktooltip {
+  display: inline-block;
+  text-indent: 0em;
+	width: 0.7em;
+	height: 1em;
+	cursor: help;
+}
+.ref .ktooltiptext {
+  visibility: hidden;
+  width: 18em;
+  background: black;
+	color: white;
+	padding: 0.5em;
+	border-radius: 0.5em;
+  top: -999px;
+  left: -999px;
+  border: 2px solid grey;
+  line-height: normal;
+  position: absolute;
+  z-index: 1;
+	text-align: left;
+	font-weight: normal;
+}
+.ref .ktooltiptext img {
+	height: 1em;
+	position: relative;
+	top: 0.2em;
+}
+.close {
+	display: block;
+	float: right;
+	line-height: 1em;
+	cursor: pointer;
+	padding: 0 0 0.5em 0.5em;
+}
+.close::before {
+  content: "\2715";
+}
+.arrow {
+	display: block;
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  border-width: 10px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}

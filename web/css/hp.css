@@ -1,0 +1,27 @@
+.hppicslo {
+	float: left;
+	text-align: center;
+	width: 9em;
+	position: static;
+	margin: 1em 3%;
+}
+article div.hppicslo a img {
+	text-decoration: none;
+	border: none;
+	height: 1.2em;
+	border: 0.05em solid grey;
+	border-radius: 0.2em;
+}
+.hppicslo table {
+	margin: 0;
+	margin-top: 1em;
+}
+.hppicslo table tr td {
+	text-align: right;
+	font-weight: bold;
+	min-width: 1.9em;
+}
+.hppic {
+	width: 100%;
+	margin-bottom: 1em;
+}
